@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #041e42; /* Dark blue background */
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #111;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.btn {
+    background: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+}
+
+.email-form input {
+    width: 300px;
+    padding: 10px;
+}
+
+.featured {
+    padding: 50px;
+}
+
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-poster {
+    margin: 10px;
+    border: 2px solid #041e42; /* Blue border */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.movie-poster img {
+    width: 200px;
+    height: 300px;
+}
